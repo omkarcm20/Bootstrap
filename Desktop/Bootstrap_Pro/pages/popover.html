@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MyBootstrap</title>
+</head>
+
+<body>
+    <div class="container cbox">
+        <div class="media"><img src="Images/1.jpg" height=130 width=130 alt="">
+            <div class="media-body">
+                <h3>Image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste assumenda ab similique corrupti quidem quis rem possimus veritatis explicabo unde non odit optio maiores dicta officiis sit, maxime sed consequatur, doloribus quisquam eveniet
+                    in placeat. Velit tempora accusantium est, quam saepe hic voluptatibus labore consectetur, et necessitatibus possimus mollitia accusamus!</p>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/popover.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>
